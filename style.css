@@ -30,6 +30,11 @@ button{
     border-radius: 10px;
 }
 
+button:hover{
+    background-color: red;
+    border-radius: 0px;
+}
+
 .iconos{
     display: flex;
     gap: 10px;
