@@ -1,0 +1,59 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+        min-height: 100vh;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: auto;
+    height: 200px;
+    width: 100%;
+    padding: 20px 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+button{
+    background-color: rgb(0, 119, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.iconos{
+    display: flex;
+    gap: 10px;
+}
+
+.copy{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+    
+}
+
+.secciones{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.secciones ul{
+    list-style: none;
+}
