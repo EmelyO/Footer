@@ -8,7 +8,7 @@ body{
 
 
 footer{
-    background-color: black;
+    background-color: rgb(23, 23, 23);
     color: white;
     margin-top: auto;
     height: 200px;
@@ -19,7 +19,7 @@ footer{
 .container{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
@@ -28,6 +28,8 @@ button{
     color: white;
     border: none;
     border-radius: 10px;
+    height: 30px;
+    width: 100px;
 }
 
 button:hover{
@@ -61,4 +63,12 @@ button:hover{
 
 .secciones ul{
     list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+input{
+    background-color: rgb(23, 23, 23);
+    border-color: gray;
 }
