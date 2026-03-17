@@ -72,3 +72,8 @@ input{
     background-color: rgb(23, 23, 23);
     border-color: gray;
 }
+
+hr{
+    border: 1px solid gray;
+    width: 75%;
+}
